@@ -9,7 +9,7 @@ require (
 	github.com/containerd/containerd v1.5.7 // indirect
 	github.com/docker/docker v20.10.9+incompatible
 	github.com/go-kit/log v0.2.0
-	github.com/google/pprof v0.0.0-20210609004039-a478d1d731e9
+	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639
@@ -21,8 +21,8 @@ require (
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
-	google.golang.org/grpc v1.41.0
+	golang.org/x/sys v0.3.0
+	google.golang.org/grpc v1.52.3
 	k8s.io/api v0.22.2
 	k8s.io/apimachinery v0.22.2
 	k8s.io/client-go v0.22.2
