@@ -9,6 +9,7 @@ require (
 	github.com/containerd/containerd v1.5.7 // indirect
 	github.com/docker/docker v20.10.9+incompatible
 	github.com/go-kit/log v0.2.0
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/pprof v0.0.0-20210609004039-a478d1d731e9
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
@@ -20,13 +21,15 @@ require (
 	github.com/parca-dev/parca v0.0.0-20210831075758-4d575344697c
 	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/prometheus v2.5.0+incompatible
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
-	google.golang.org/grpc v1.41.0
+	github.com/stretchr/testify v1.8.0
+	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/sys v0.5.0
+	google.golang.org/genproto v0.0.0-20220502173005-c8bf987b8c21 // indirect
+	google.golang.org/grpc v1.49.0
+	google.golang.org/protobuf v1.28.1 // indirect
 	k8s.io/api v0.22.2
 	k8s.io/apimachinery v0.22.2
 	k8s.io/client-go v0.22.2
-	k8s.io/cri-api v0.22.2
 )
 
 replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v1.8.2-0.20201130085533-a6e18916ab40
